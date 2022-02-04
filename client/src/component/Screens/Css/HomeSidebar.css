@@ -1,0 +1,17 @@
+
+
+  .aaaa{
+    display: block;
+    position: relative;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+  }
+  @media screen and (max-width:800px){
+    .aaaa{
+      height: 100%;
+      overflow: auto;
+    }
+  }
